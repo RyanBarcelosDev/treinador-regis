@@ -26,3 +26,8 @@ EFEITOS (todos feitos só com CSS, sem JavaScript)
    o conteúdo simplesmente aparece normal, sem animação)
 
 Requisitos: PHP 7.4 ou mais novo (o XAMPP atual já vem com PHP 8).
+
+PUBLICAR NO VERCEL
+- O Dockerfile e o Caddyfile permitem executar o site em PHP no Vercel usando FrankenPHP.
+- Importe este repositório no Vercel mantendo a raiz do projeto como diretório raiz.
+- Se o projeto já estiver configurado com outro framework, altere o preset para Container.
