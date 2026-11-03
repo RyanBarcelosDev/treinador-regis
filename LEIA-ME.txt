@@ -1,0 +1,28 @@
+SITE TREINADOR REGIS — VERSÃO HTML + PHP + CSS
+==============================================
+
+PÁGINAS
+- index.php ............ Página inicial
+- sobre.php ............ Minha trajetória
+- servicos.php ......... Serviços
+- calculadora-tmb.php .. Calculadora de TMB (o cálculo é feito em PHP)
+- contato.php .......... Contato
+
+ONDE ALTERAR AS COISAS
+- includes/config.php .... WhatsApp, Instagram, região, frase e os 4 serviços
+- includes/tmb.php ....... Fórmula da calculadora (Mifflin-St Jeor)
+- includes/header.php .... Topo e menu (igual em todas as páginas)
+- includes/footer.php .... Rodapé
+- includes/secoes/ ....... Blocos repetidos (Meu Método, Entre em contato, Redes)
+- css/style.css .......... Cores, fontes e todos os efeitos
+- img/ ................... Fotos e logos
+
+EFEITOS (todos feitos só com CSS, sem JavaScript)
+- Painéis da página inicial que abrem ao passar o mouse
+- Abas do "Meu Método" com setas
+- Menu do celular que desliza pela lateral
+- Conteúdo que surge ao rolar a página e topo que escurece ao rolar
+  (esses dois aparecem no Chrome, Edge e Safari atuais; nos demais navegadores
+   o conteúdo simplesmente aparece normal, sem animação)
+
+Requisitos: PHP 7.4 ou mais novo (o XAMPP atual já vem com PHP 8).
